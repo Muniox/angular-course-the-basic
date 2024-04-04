@@ -28,8 +28,8 @@ export class ServersComponent {
     this.serverCreationStatus = 'Server was created!';
   }
 
-  onUpdateServerName(event: Event) {
-    const input = <HTMLInputElement>event.target;
-    this.serverName = input.value;
-  }
+  // onUpdateServerName(event: Event) {
+  //   const input = <HTMLInputElement>event.target;
+  //   this.serverName = input.value;
+  // }
 }
