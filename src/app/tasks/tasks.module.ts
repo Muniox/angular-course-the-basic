@@ -6,6 +6,7 @@ import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import { TasksComponent } from './tasks.component';
 import { PractisingDatabindingComponent } from './practising-databinding/practising-databinding.component';
+import { PractisingDirectivesComponent } from './practising-directives/practising-directives.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { PractisingDatabindingComponent } from './practising-databinding/practis
     SuccessAlertComponent,
     TasksComponent,
     PractisingDatabindingComponent,
+    PractisingDirectivesComponent,
   ],
   imports: [CommonModule, FormsModule],
   exports: [TasksComponent],
