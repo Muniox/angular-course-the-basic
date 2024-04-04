@@ -1,3 +1,23 @@
+<hr />
+<h3>Practising Databinding</h3>
+<div>
+  <ol>
+    <li>
+      Add a input field which updates a proprty ('username') via Two-Way-Binding
+    </li>
+    <li>
+      Output the username proprty via String Interpolation (in a paragraph below
+      the input)
+    </li>
+    <li>
+      Add a button which may only be clicked if the usernames is NOT an empty
+      string
+    </li>
+    <li>
+      Upon clicking the button, the username should be reset to an empty string
+    </li>
+  </ol>
+</div>
 <label for="username">Username check</label>
 <input type="text" class="form-control" id="username" [(ngModel)]="username" />
 <button
@@ -6,5 +26,5 @@
   [disabled]="username ? false : true"
   (click)="username = ''"
 >
-  Check
+  Reset User
 </button>
