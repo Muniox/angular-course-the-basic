@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
@@ -13,7 +14,7 @@ import { PractisingDatabindingComponent } from './practising-databinding/practis
     TasksComponent,
     PractisingDatabindingComponent,
   ],
-  imports: [CommonModule],
+  imports: [CommonModule, FormsModule],
   exports: [TasksComponent],
 })
 export class TasksModule {}
